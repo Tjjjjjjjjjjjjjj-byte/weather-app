@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <span class="city-name">
+        <span class="material-symbols-outlined location"> location_chip </span>
+        City Name
+      </span>
+
+      <section class="city-list hidden">
+        <div class="city">
+          <span class="city-list-name">placeholder</span>
+        </div>
+      </section>
+
+      <section class="left">
+        <span class="time">
+          <span class="material-symbols-outlined"> history </span>
+          <span class="current-time"></span>
+        </span>
+
+        <span class="settings">
+          <span class="material-symbols-outlined"> settings </span>
+        </span>
+      </section>
+    </nav>
+
+    <main>
+      <section class="main-weather">
+        <section class="mainmain">
+          <div class="weather-item location-item">
+            <span class="weather-label">Location</span>
+            <span class="city-name-">City Name</span>
+          </div>
+
+          <div class="weather-item temperature-item">
+            <span class="weather-label">Temperature</span>
+
+            <span class="tempm">
+              <span class="material-symbols-outlined"> air </span>
+              <span class="tempV"></span>
+            </span>
+          </div>
+
+          <div class="weather-item feels-like-item">
+            <span class="weather-label">Feels Like</span>
+
+            <span class="feelslike"> Placeholder </span>
+          </div>
+
+          <div class="weather-item condition-item">
+            <span class="weather-label">Condition</span>
+
+            <span class="condition"> Partly Cloudy </span>
+
+            <span class="material-symbols-outlined"> cloud </span>
+          </div>
+
+          <div class="weather-item wind-item">
+            <span class="weather-label">Wind Speed</span>
+
+            <span class="windspeed"> 10 kph </span>
+
+            <span class="material-symbols-outlined"> air </span>
+          </div>
+        </section>
+
+        <section class="graph">
+          <div class="hours">
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+
+            <div class="hour">
+              <span class="hour-time"></span>
+              <span class="material-symbols-outlined">thermostat</span>
+              <span class="hour-temperature"></span>
+              <span class="material-symbols-outlined">air</span>
+              <span class="hour-wind"></span>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="weekly">
+        <div class="monday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Monday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+
+        <div class="tuesday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Tuesday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+
+        <div class="wednesday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Wednesday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+
+        <div class="thursday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Thursday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+
+        <div class="friday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Friday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+
+        <div class="saturday">
+          <span class="day">
+            <span class="material-symbols-outlined">calendar_today</span>
+            <span class="day-value">Saturday</span>
+          </span>
+
+          <span class="temp">
+            <span class="temp-value">31°F</span>
+            <span class="condition">Partly Cloudy</span>
+            <span class="material-symbols-outlined">cloud</span>
+          </span>
+        </div>
+      </section>
+
+      <div class="humidity dev">
+        <span class="weather-label">Humidity</span>
+        <span class="humid">Placeholder</span>
+      </div>
+
+      <div class="air-quality dev">
+        <span class="weather-label">Wind Direction</span>
+        <span class="wind-direction">Placeholder</span>
+      </div>
+
+      <div class="precipitation dev">
+        <span class="weather-label">Precipitation</span>
+        <span class="precip">Placeholder</span>
+      </div>
+
+      <div class="words dev">
+        <span class="weather-label">Anime</span>
+        <span class="word">Your Name.</span>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
