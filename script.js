@@ -103,7 +103,7 @@ function getWeatherCondition(code) {
 }
 let continent = "Asia";
 
-let city = "Paniqui";
+let city = "Manila";
 
 
 let cityV = "Paniqui";
