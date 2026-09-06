@@ -106,7 +106,7 @@ let continent = "Asia";
 let city = "Manila";
 
 
-let cityV = "Paniqui";
+let cityV = "Tarlac";
 
 
 
