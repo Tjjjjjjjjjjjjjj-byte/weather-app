@@ -103,10 +103,10 @@ function getWeatherCondition(code) {
 }
 let continent = "Asia";
 
-let city = "Manila";
+let city = "Delhi";
 
 
-let cityV = "Tarlac";
+let cityV = "Delhi";
 
 
 
